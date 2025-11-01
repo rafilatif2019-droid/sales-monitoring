@@ -20,7 +20,7 @@ export enum ProductType {
 }
 
 export interface Product {
-    id: string;
+    id:string;
     name: string;
     type: ProductType;
     basePrice: number;
@@ -46,6 +46,13 @@ export interface Sale {
 export type DailyVisitPlan = {
     [day: number]: string[]; // day: 1 for Monday, ..., 6 for Saturday
 };
+
+export interface Notification {
+    id: string;
+    type: 'warning' | 'info' | 'success' | 'error';
+    title: string;
+    message: string;
+}
 
 export interface AppContextType {
     stores: Store[];
