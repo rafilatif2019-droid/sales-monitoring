@@ -1,0 +1,5 @@
+{
+  "name": "Sales Target Monitor",
+  "description": "An application for sales professionals to monitor and manage their monthly sales targets, store performance, and product distribution across various store levels. It includes features for tracking bi-weekly 'Distribusi Drive' targets and long-term 'Item Fokus' goals, with dynamic pricing and discount simulations based on configurable store categories.",
+  "requestFramePermissions": []
+}
